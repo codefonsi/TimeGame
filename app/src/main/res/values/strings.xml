@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TimeGame</string>
+    <string name="time_left">Time left : %s</string>
+    <string name="your_score">Your Score : %s </string>
+    <string name="tap_me">Tap Me</string>
+    <string name="game_over_message">Times up!Your Score was: %s </string>
+    <string name="about_menu">About</string>
+    <string name="about_title">About</string>
+    <string name="about_message">Created by Code Fonsi.</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+
+*Blink Animation Android .......*
+for blinking you need to cahnge the alpha of given view with a duraiton.
+so you need to use alpha tag in xml.
+
+
+-->
+
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <alpha
+            android:duration="400"
+            android:fromAlpha="0.0"
+            android:interpolator="@android:anim/accelerate_interpolator"
+            android:repeatCount="infinite"
+            android:repeatMode="reverse"
+            android:toAlpha="1.0" />
+
+</set>
+
+<!--
+Now you need to define this animation on view for that go to your view file and start add this animaiton.
+by writing
+            val blinkAnimation = AnimationUtils.loadAnimation(this,R.anim.bounce)
+            view.startAnimation(blinkAnimation)
+-->

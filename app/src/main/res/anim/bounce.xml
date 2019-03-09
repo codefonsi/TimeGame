@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+//https://evgenii.com/blog/spring-button-animation-on-android/
+-->
+
+<set xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <scale
+            android:duration="2000"
+            android:fromXScale="0.3"
+            android:toXScale="1.0"
+            android:fromYScale="0.3"
+            android:toYScale="1.0"
+            android:pivotX="50%"
+            android:pivotY="50%" />
+</set>
+
+<!--
+-> ray wender for bounce animation
+
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+     android:fillAfter="true"
+     android:shareInterpolator="@android:anim/bounce_interpolator">
+</set>
+    <scale
+            android:duration="1000"
+            android:fromXScale="2.0"
+            android:fromYScale="2.0"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:toXScale="1.0"
+            android:toYScale="1.0"
+        />
+
+
+-->
+
+<!--
+https://stackoverflow.com/questions/15021372/repeat-android-animation
+    <scale
+            android:fromXScale="0.7"
+            android:toXScale="1.0"
+            android:fromYScale="0.7"
+            android:toYScale="1.0"
+            android:pivotX="50%p"
+            android:pivotY="50%p"
+            android:duration="4000"
+            android:repeatCount="infinite"
+    />
+
+    <alpha
+            android:fromAlpha="0.0"
+            android:toAlpha="1.0"
+            android:duration="2000"
+            android:repeatMode="reverse"
+            android:repeatCount="infinite"
+    />
+
+-->
+
+<!--
+https://stackoverflow.com/questions/23937748/make-bounce-animation
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+
+     android:interpolator="@android:anim/bounce_interpolator">
+
+<translate
+        android:duration="900"
+        android:fromXDelta="100%p"
+        android:toXDelta="0%p" />
+        </set>
+
+-->
